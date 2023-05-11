@@ -1,0 +1,62 @@
+body{
+  font-family: sans-serif;
+  background: rgb(19,141,117);
+  background: linear-gradient(0deg, rgba(19,141,117,1) 0%, rgba(115,198,182,1) 9%, rgba(232,246,243,1) 100%);
+}
+
+.titulo {
+  color: #1F618D;
+  text-decoration:underline;
+  text-align: center;
+  font-weight:bold;
+  font-size:x-large;
+}
+
+img {border-radius: 30px;
+width: 300px;}
+
+.subtitulo {
+  font-size: small;
+  text-align: center;
+}
+
+h1{
+  color: #2980B9;
+  font-size: large;
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+  width: auto;
+}
+
+.ingredientes{
+  color: black;
+}
+.info {
+  color: #F1948A;
+  text-align: center;
+}
+
+footer {}
+  .whatsapp{
+    width: 5%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  .redes {
+    background-color: #FDFEFE;
+     margin-bottom: 20px;
+     border: 5px solid;
+     border-radius: 20px;
+     padding: 25px;
+  }
+
+  .facebook{ width: 5%;}
+  .instagram{ width: 5%;}
+  .github{width: 5%;}
+  .tiktok {width: 5%;}
+
+  .mapa {width: 300px;}
