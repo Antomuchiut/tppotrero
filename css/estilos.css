@@ -4,7 +4,63 @@ body{
   background: linear-gradient(0deg, rgba(19,141,117,1) 0%, rgba(115,198,182,1) 9%, rgba(232,246,243,1) 100%);
 }
 
+header{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  
+}
+
 .titulo {
+  font-size: 72px;
+  color: #ca0000a2;
+  font-weight: bold;
+  text-align: justify;
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+
+.redes {
+    display: flex;
+    justify-content: end;
+    align-items: stretch;
+    flex-direction: row;
+    width: 300px;
+    height: 70px;
+    border: 4px solid #1F618D;
+  border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;    
+}
+.redes img {
+  width: 65px;
+  height: 65px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+.nombre {
   color: #1F618D;
   text-decoration:underline;
   text-align: center;
@@ -38,25 +94,47 @@ p {
   color: #F1948A;
   text-align: center;
 }
+.whatsapp{
+  width: 5%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
 
-footer {}
-  .whatsapp{
-    width: 5%;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  }
-  .redes {
-    background-color: #FDFEFE;
-     margin-bottom: 20px;
-     border: 5px solid;
-     border-radius: 20px;
-     padding: 25px;
-  }
+.mapa {width: 150px;
+  
+}
 
-  .facebook{ width: 5%;}
-  .instagram{ width: 5%;}
-  .github{width: 5%;}
-  .tiktok {width: 5%;}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
 
-  .mapa {width: 300px;}
+.redes2 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  width: 300px;
+  height: 70px;
+  border: 4px solid #1F618D;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.redes2 img {
+  width: 65px;
+  height: 65px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+ 
