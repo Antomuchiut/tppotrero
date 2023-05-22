@@ -1,0 +1,184 @@
+@font-face{
+  font-family: "bertungas";
+  src: url(../font/ber.ttf) format("truetype");
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(19,141,117);
+  background: linear-gradient(0deg, rgba(19,141,117,1) 0%, rgba(115,198,182,1) 9%, rgba(232,246,243,1) 100%);
+}
+
+header{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.logo {
+  width: 100px;
+}
+
+.titulo {
+  font-size: 72px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ca0000a2;
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 300px;
+    height: 70px;
+    border: 4px solid #1F618D;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;    
+}
+.redes img {
+  width: 65px;
+  height: 65px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+hr{
+  border-color: #1F618D;
+  border-width: 4px;
+  border-style: ridge;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+
+}
+a{
+  text-decoration: none;
+}
+a:link {color: #1F618D;}
+a:visited {color: #1f8d25;}
+a:hover {color: #ff1900;
+font-size: 25px;
+}
+.nombre {
+  color: #1F618D;
+  text-decoration:underline;
+  text-align: center;
+  font-weight:bold;
+  font-size:26px;
+}
+
+img {border-radius: 30px;
+width:15vw;}
+
+.subtitulo {
+  font-size: 16px;
+ font-family: 'Dancing Script', cursiva;
+  text-align: center;
+}
+
+h1{
+  color: #2980B9;
+  font-size: large;
+  text-decoration: underline;
+}
+.cuerpo-pagina{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+section{
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+}
+
+.descripcion{
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.prepa{
+  font-size: 2em;
+  font-family: bertungas, sans-serif;
+  margin-left: 5px;
+}
+p {
+  text-align: justify;
+  width: auto;
+}
+aside{
+  width: 20vw;
+  margin: 5px;
+  border: #1F618D;
+  border-width: 5px;
+  border-style: ridge;
+}
+
+.title{
+  text-align: center;
+  font-family: bertungas, sans-serif;
+  font-size: 2rem;
+}
+
+.ingredientes{
+  color: black;
+  margin: 5px;
+  
+}
+
+
+.whatsapp{
+  width: 5%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.mapa {width: 150px;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+
+.redes2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 300px;
+  height: 70px;
+  border: 4px solid #1F618D;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.redes2 img {
+  width: 65px;
+  height: 65px;
+  margin: 5px;
+  border-radius: 5px;
+}
+ 
+.name{
+  text-align: center;
+}
