@@ -8,7 +8,12 @@ body{
   background: rgb(19,141,117);
   background: linear-gradient(0deg, rgba(19,141,117,1) 0%, rgba(115,198,182,1) 9%, rgba(232,246,243,1) 100%);
 }
-
+@media(max-width: 700px){
+  body {
+    background: rgb(251,0,0);
+    background: linear-gradient(90deg, rgba(251,0,0,1) 0%, rgba(255,255,255,0.7512254901960784) 48%, rgba(3,125,11,1) 100%);
+  }
+}
 header{
   text-align: center;
   display: flex;
@@ -18,19 +23,43 @@ header{
   flex-wrap: wrap;
   width: 100vw;
 }
-
+@media(max-width:700px){
+  header{
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .logo {
   width: 100px;
 }
+@media(max-width: 700px) {
+  .logo{
+    display:none;
+  }
+}
+.mapa-italia{
+  width: 100px;
+}
 
+@media(min-width: 700px) {
+  .mapa-italia{
+    display:none;
+  }
+}
 .titulo {
   font-size: 72px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ca0000a2;
   font-weight: bold;
-  text-align: justify;
+  text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
+  }
+
+  @media (max-width:700px){
+    .titulo {
+      color: black;
+    }
   }
 
 .redes {
@@ -97,7 +126,14 @@ h1{
 .cuerpo-pagina{
   display: flex;
   justify-content: space-between;
- 
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+}
+@media(max-width:700px){
+  .cuerpo-pagina{
+    flex-direction: column;
+  }
 }
 
 section{
@@ -105,10 +141,18 @@ section{
   width: 70vw;
   flex-direction: column;
 }
-
+@media(max-width:700px){
+  section{
+    width: 100vw;
+  }
+}
 .descripcion{
   font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.video-italia{
+  width: 100vw;
 
 }
 .prepa{
@@ -121,17 +165,21 @@ p {
   width: auto;
 }
 aside{
-  width: 20vw;
+  width: 25vw;
   margin: 5px;
   border: #1F618D;
   border-width: 5px;
   border-style: ridge;
 }
-
+@media(max-width:700px){
+  aside{
+    width: 100vw;
+  }
+}
 .title{
   text-align: center;
   font-family: bertungas, sans-serif;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .ingredientes{
@@ -142,7 +190,7 @@ aside{
 
 
 .whatsapp{
-  width: 5%;
+  width: 60px;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -152,14 +200,28 @@ aside{
   
 }
 
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
- 
+@media(max-width:700px){
+  .mapa{
+    display: none;
+  }
 }
 
+footer {
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  
+}
+@media (max-width:700px){
+  footer{
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .redes2 {
   display: flex;
   justify-content: space-around;
