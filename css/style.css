@@ -206,6 +206,23 @@ aside{
   }
 }
 
+.btn {
+  background-color:rgb(191, 244, 233);
+  ;
+}
+.card{
+  width: 300px;
+  border: #1F618D;
+  border-width: 5px;
+}
+.card-title{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #1F618D;
+  font-size: 32px;
+}
+
+
 footer {
   text-align: center;
   display: flex;
