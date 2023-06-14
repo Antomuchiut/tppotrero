@@ -9,12 +9,23 @@
     <title>Receta Italiana</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    
+    <script>
+    alert ("¡Bienvenido/a! Esperamos que disfrutes de tu visita y puedas sacar provecho a las recetas que hay a continuación.") 
+    </script>
+
   </head>
   <body>
-    <header>
+    
+
+     <header>
+       
       <div>
         <img class="logo"src="./imagenes/banderaitalia.png" alt="bandera de italia">
       </div>
@@ -24,22 +35,31 @@
       <h1 class="titulo">Recetas de Italia</h1>
       
       <div class="redes">
-        <a href="https://www.facebook.com/anto.muchiut" target="_blank">
+        <a href="https://www.facebook.com/anto.muchiut" target="_blank" rel="noopener noreferrer">
           <img class="facebook" src="./imagenes/facebook.png" alt="facebook">
         </a>
-        <a href="https://www.instagram.com/anto_muchiut/" target="_blank">
+        <a href="https://www.instagram.com/anto_muchiut/" target="_blank" rel="noopener noreferrer">
           <img class="instagram" src="./imagenes/instagram.png" alt="instagram">
-      </a>
-      <a href="https://github.com/Antomuchiut" target="_blank">
+        </a>
+        <a href="https://github.com/Antomuchiut" target="_blank" rel="noopener noreferrer">
           <img class="github" src="./imagenes/github.png" alt="github">
-      </a>
+        </a>
 
-      <a href="https://www.tiktok.com/@antonelamuchiut" target="_blank">
+        <a href="https://www.tiktok.com/@antonelamuchiut" target="_blank" rel="noopener noreferrer">
           <img class="tiktok" src="./imagenes/tiktok.png" alt="tiktok">
-      </a>
+        </a>
       </div>
 
-    </header>
+  </header>
+
+  <button id="modoNocheBtn" type="button">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- <button onclick="vision()">
+    Modo noche
+    </button>
+ -->
 <hr>
 
     <h1 class="nombre">Crostoli o Gróstoli</h1>
@@ -219,9 +239,15 @@
   <p>Oriunda de la ciudad de Avellaneda, Santa Fe</p>
   </div>
 
+  <button onclick="copy()"> &copy; 2023 Copyright </button>
+
 </footer>
 
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script src="./js/script.js"></script>
 
 </body>
 </html>

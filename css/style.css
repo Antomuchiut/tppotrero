@@ -3,6 +3,7 @@
   src: url(../font/ber.ttf) format("truetype");
 }
 
+
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: rgb(19,141,117);
@@ -23,14 +24,53 @@ header{
   flex-wrap: wrap;
   width: 100vw;
 }
+
+
+
 @media(max-width:700px){
   header{
     flex-direction: column;
     align-items: center;
   }
 }
+
+/* button{
+  height: 30px;
+  border: slategray;
+  background-color: #d7a900a2;
+  outline:none;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+button :hover{
+  transform: scale(1.1);
+  } */ 
+
+#modoNocheBtn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+  
+#modoNocheBtn.active i {
+    color: yellow;
+}
+
+/* Estilos para el modo noche */
+.modo-noche {
+  background: #232323;
+  color: white;
+}
+
 .logo {
-  width: 100px;
+  width: 150px;
+  margin-top: -1%;
+  padding-bottom: .5em;
+  
 }
 @media(max-width: 700px) {
   .logo{
@@ -70,9 +110,10 @@ header{
     width: 300px;
     height: 70px;
     border: 4px solid #1F618D;
+    background-color: aliceblue;
     border-radius: 5px;
-    margin: 5px;
-    padding: 5px;    
+    margin: 25px;
+    padding: 45px;    
 }
 .redes img {
   width: 65px;
@@ -170,6 +211,7 @@ aside{
   border: #1F618D;
   border-width: 5px;
   border-style: ridge;
+  background-color: aliceblue;
 }
 @media(max-width:700px){
   aside{
@@ -186,13 +228,14 @@ aside{
   color: black;
   margin: 5px;
   
+  
 }
 
 
 .whatsapp{
   width: 60px;
   position: fixed;
-  bottom: 20px;
+  bottom: 100px;
   right: 20px;
 }
 
@@ -246,9 +289,10 @@ footer {
   width: 300px;
   height: 70px;
   border: 4px solid #1F618D;
+  background-color: aliceblue;
   border-radius: 5px;
-  margin: 5px;
-  padding: 5px;
+  margin: 25px;
+  padding: 45px;
 }
 .redes2 img {
   width: 65px;
